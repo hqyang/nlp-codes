@@ -1,4 +1,4 @@
-# Advanced NLP Data
+# NLP Data
 
 This contains several example data sets:
 
