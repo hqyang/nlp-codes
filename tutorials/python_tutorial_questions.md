@@ -72,13 +72,13 @@ np.max (见文档https://numpy.org/doc/stable/reference/generated/numpy.ndarray.
 2. 分别计算`np.max(x, axis = 1)`和`np.max(x, axis = 1, keepdims = True)`，并打印结果及其形状。
 3. 定义数组`A = np.array([[1, 2], [3, 4]])`和`B = np.array([[3, 3], [3, 3]])`，打印A和B以及计算它们的逐元素级乘积并打印。
 
-## 矩阵乘法 matrix multiplication
+## 矩阵乘法 Matrix Multiplication
 
 np.matmul 或 @
 
 1. 根据上述数组`A`和`B`，用两种方式（`np.matmul`和`@`）计算它们的矩阵乘法并打印结果。
 
-## 点积 dot product
+## 点积 Dot Product
 
 1. 定义数组`u = np.array([1, 2, 3])`和`v = np.array([1, 10, 100])`，用两种方式（`np.dot`和`u.dot(v)`）计算它们的点积并打印结果。
 2. 定义数组`W = np.array([[1, 2], [3, 4], [5, 6]])`和`v = np.array([1, 10, 100])`，完成下述任务: 
