@@ -53,7 +53,7 @@ NumPy是一个Python库，它支持大型多维数组和矩阵的计算，并提
 - 下载Anaconda。当你在一个新项目上工作时，创建一个良好的环境。
 - 激活您的conda环境，并使用conda或pip安装该库，如果它们在conda中不可用。
 - 如果您在命令行上运行脚本，请在conda环境中运行。
-- 如果您使用的是Jupyter笔记本，请将conda环境添加到Jupyter笔记本: [https://towardsdatascience.com/get-your-conda-environment-to-show-in-jupyter-notebooks-the-easy-way-17010b76e874。创建您的Jupyter笔记本，并确认您在conda环境内核中（笔记本的右上角应该显示名称）。如果不是，请转到左上角的Kernel选项卡并单击Change](https://towardsdatascience.com/get-your-conda-environment-to-show-in-jupyter-notebooks-the-easy-way-17010b76e874%E3%80%82%E5%88%9B%E5%BB%BA%E6%82%A8%E7%9A%84Jupyter%E7%AC%94%E8%AE%B0%E6%9C%AC%EF%BC%8C%E5%B9%B6%E7%A1%AE%E8%AE%A4%E6%82%A8%E5%9C%A8conda%E7%8E%AF%E5%A2%83%E5%86%85%E6%A0%B8%E4%B8%AD%EF%BC%88%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%9A%84%E5%8F%B3%E4%B8%8A%E8%A7%92%E5%BA%94%E8%AF%A5%E6%98%BE%E7%A4%BA%E5%90%8D%E7%A7%B0%EF%BC%89%E3%80%82%E5%A6%82%E6%9E%9C%E4%B8%8D%E6%98%AF%EF%BC%8C%E8%AF%B7%E8%BD%AC%E5%88%B0%E5%B7%A6%E4%B8%8A%E8%A7%92%E7%9A%84Kernel%E9%80%89%E9%A1%B9%E5%8D%A1%E5%B9%B6%E5%8D%95%E5%87%BBChange) Kernel以更改为conda环境内核。
+- 如果您使用的是Jupyter笔记本，请将conda环境添加到Jupyter笔记本: [https://towardsdatascience.com/get-your-conda-environment-to-show-in-jupyter-notebooks-the-easy-way-17010b76e874](https://towardsdatascience.com/get-your-conda-environment-to-show-in-jupyter-notebooks-the-easy-way-17010b76e874/)。创建您的Jupyter笔记本，并确认您在conda环境内核中（笔记本的右上角应该显示名称）。如果不是，请转到左上角的Kernel选项卡并单击Change Kernel以更改为conda环境内核。
 1. 导入numpy库（别名np），分别创建数组`x = np.array([1,2,3])`、`y = np.array([[3,4,5]])`、`z = np.array([[6,7],[8,9]])`，并打印这三个数组的形状和z。
 
 **向量**可以表示为形状为（N,）的一维数组或形状为（N, 1）或（1，N）的二维数组。但需要注意的是，形状（N,）、（N, 1）和（1，N）并不相同，可能导致不同的行为（我们将在下面看到一些涉及矩阵乘法和广播的示例）。
